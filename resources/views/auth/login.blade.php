@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+<br/>
+<br/>
+<br/>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -43,7 +46,7 @@
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
+                                    <br/>
                                     <label class="form-check-label" for="remember">
                                         {{ __('Remember Me') }}
                                     </label>
